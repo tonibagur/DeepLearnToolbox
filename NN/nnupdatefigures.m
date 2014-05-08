@@ -54,7 +54,7 @@ if i > 1 %dont plot first point, its only a point
         
         p = plot(plot_x,plot_ye);
         xlabel('Number of epochs'); ylabel('Error');title('Error');
-        legend(p, M,'Location','NorthEast');
+        %legend(p, M,'Location','NorthEast');
         set(gca, 'Xlim',[0,opts.numepochs + 1])
                 
     end
